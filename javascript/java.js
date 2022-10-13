@@ -1,3 +1,21 @@
+var listern = document.querySelector('.listiten');
+// console.log(listern.parentNode);
+// listern.parentNode.style.backgroundColor="lightblue";
+// listern.parentNode.parentNode.style.backgroundColor="pink";
+// listern.parentNode.parentNode.parentNode.style.backgroundColor="lightgray";
+console.log(listern.childNodes[1]);
+listern.childNodes[1].textContent="hhhhfghj-1";
+listern.childNodes[5].style.backgroundColor="yellow";
+listern.lastElementChild.style.backgroundColor="red";
+listern.lastElementChild.textContent = "check Changs text now"; 
+
+
+
+
+
+
+
+
 console.log("hello World");
 for(var i=0; i<10; i++){
     console.log(i);
