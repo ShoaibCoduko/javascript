@@ -203,6 +203,7 @@ var democlick = document.getElementById('democlick').addEventListener(
 function democlick(){
   var entertext = document.getElementById('demo');
   entertext.textContent="xjocc";
+  entertext.style.backgroundColor="pink";
 
 console.log(entertext)
 }
