@@ -198,12 +198,16 @@ console.log(day);
 // }
 // console.log(timeout);
 var democlick = document.getElementById('democlick').addEventListener(
-  'click',democlick 
+  'click',democlick
+  
 );
+
 function democlick(){
   var entertext = document.getElementById('demo');
-  entertext.textContent="xjocc";
-  entertext.style.backgroundColor="pink";
+  entertext.textContent="todays next working starte now base";
+  entertext.style.backgroundColor="gray";
+  entertext.style.fontFamily="altkey";
+
 
 console.log(entertext)
 }
